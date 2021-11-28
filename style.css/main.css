@@ -1,0 +1,39 @@
+.border {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #a3a7aa;
+    flex-wrap: wrap;
+}
+.deg180 {
+    transform: rotateY(180deg);
+}
+.main-img {
+    width: 630px;
+    height: 330px;
+    padding: 15px 0;
+}
+.text {
+    padding: 15px;
+}
+.text h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+.text p {
+    padding: 10px 0;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.btm-more {
+    width: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btm-more:hover, .btm-more:active {
+    text-decoration-line: underline;
+    filter: contrast(50%);
+    
+} 

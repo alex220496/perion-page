@@ -1,0 +1,252 @@
+.modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: hidden;
+    
+}
+/*  btn closed */
+.closed {
+    z-index: 50;
+    font-size: 26px;
+    text-align: center;
+    line-height: 33px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.699);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    user-select: none;
+}
+.closed:hover {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: black; 
+}
+.closed:active {
+    background-color: rgba(0, 0, 0, 0.158);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.315);
+}
+.closed-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 49;
+    background-color: rgba(0, 0, 0, 0.233);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.678);
+}
+/*  CUP  */
+.cup{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+    
+}
+.cup-img {
+    width: 30%;
+}
+/*  Teams */
+.por-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 80%;
+    height: 100vh;
+}
+.portland {
+    width: 100%;
+}
+.dallas {
+    width: 100%;
+}
+.portland-img {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    z-index: 5;
+    width: 23%;
+}
+.dall-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 4;
+    width: 83.3%;
+    height: 100vh;
+    
+}
+.dallas-img {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    z-index: 5;
+    width: 23%;
+}
+.comands {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-img {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+.last-img img {
+    width: 100%;
+    height:100vh;
+}
+.comands-text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    z-index: 5;
+    color: #fff;
+    font-size: 200px;
+    font-weight: bolder;
+    filter: drop-shadow(6.691px 7.431px 16px #000000);
+}
+.word-2 {
+    font-size: 150px;
+}
+.word-3 {
+    padding-top: 15px;
+    font-size: 75px;
+}
+
+/* video + */
+.open-video {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    z-index: 7;
+}
+.wrap-video {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.349);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video {
+    user-select: none;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 75px;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-color: rgba(0, 0, 0, 0.699);
+    cursor: pointer;
+}
+
+.video-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-top: 15px;
+    color: #fff;
+}
+.video:hover {
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    color: black; 
+}
+.video:active {
+    background-color: rgba(0, 0, 0, 0.158);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.315);
+}
+.z-i {
+    z-index: 6;
+}
+.movie {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    position: relative;
+    width: 40%;
+    height: 50%;
+}
+.closed-movie-wrapper {
+    position: absolute;
+    top: -17%;
+    right: -8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 49;
+    background-color: rgba(0, 0, 0, 0.233);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.678);
+}
+.closed-movie {
+    font-size: 47px;
+    text-align: center;
+    line-height: 65px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.699);
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    cursor: pointer;
+    user-select: none;
+}
+.closed-movie:hover {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: black; 
+}
+.closed-movie:active {
+    background-color: rgba(0, 0, 0, 0.158);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.315);
+}
+.video-player {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
